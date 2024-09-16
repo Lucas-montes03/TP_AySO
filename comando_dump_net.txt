@@ -1,0 +1,2 @@
+El comando es: tcpdump
+Para buscar el comando usamos man -k 'dump traffic'
