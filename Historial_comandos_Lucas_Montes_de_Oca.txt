@@ -1,0 +1,32 @@
+    1  exit
+    2  /repogit$ ssh-keygen -t ed25519
+    3  pwd
+    4  history
+    5  man
+    6  exit
+    7  man
+    8  man man
+    9  grep "model name" /proc/cpuinfo
+   10  ssh-keygen
+   11  cat $HOME/.ssh/*.pub
+   12  cd repogit/TP_AySO/
+   13  ll
+   14  cat README.md 
+   15  echo "# TP_AySO" >> README.md 
+   16  cat README.md 
+   17  { tail -n 1 archivo.txt; head -n -1 archivo.txt; } > README.md
+   18  { tail -n 1 README.md; head -n -1 README.md; } > README.md
+   19  cat README.md 
+   20  echo "# TP_AySO" > README.md
+   21  echo "Alumno: Lucas Montes de Oca" >> README.md 
+   22  echo "Diviśión: 313" >> README.md 
+   23  echo "Turno: Noche" >> README.md 
+   24  cat README.md 
+   25  git add .
+   26  git commit -m 'ADD: Agregando datos del alumno'
+   27  history -a
+   28  cat $HOME/.bash_history
+   29  touch Historial_comandos_Lucas_Montes_de_Oca.txt
+   30  ll
+   31  cat Historial_comandos_Lucas_Montes_de_Oca.txt 
+   32  history > Historial_comandos_Lucas_Montes_de_Oca.txt 
