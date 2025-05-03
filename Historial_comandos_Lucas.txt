@@ -1,0 +1,80 @@
+ssh-keygen
+cat $HOME/.ssh/*.pub
+sudo apt install bzip2
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+pwd
+mkdir repogit
+ls -l
+cd repogit/
+pwd
+git clone git@github.com:Lucas-montes03/TP_AySO.git
+sudo apt install git
+git clone git@github.com:Lucas-montes03/TP_AySO.git
+ls -l
+TP_AySO/
+cd TP_AySO/
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i  home_url /etc/os-release
+grep -i  homE_Url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ll
+cat datos_usuario.txt 
+git status
+git add .
+git status
+git config --global user.email "mikelmineitor@gmail.com"
+git config --global user.name "Lucas-montes03"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+cat /proc
+cd /proc/
+cat cpuinfo 
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cd ..
+ll
+cd
+ll
+cd repogit/
+cd TP_AySO/
+ll
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cat datos_usuario
+cat datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cat datos_usuario.txt
+sudo grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cat datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git status
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+cat <<EOF >> README.md
+Alumno: Guille
+División: 315 Turno: Noche
+
+cat README.md
+cat <<EOF >> README.md
+
+Alumno: Lucas Montes de Oca
+División: 315
+Turno: Noche
+EOF
+
+cat README.md
+git status
+git add .
+git status
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
